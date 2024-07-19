@@ -46,10 +46,6 @@ Use the following command to run the collection with Newman:
 
 newman run <path_to_your_postman_collection.json>
 
-Here's a README.md file for your API project using the Number Conversion web service. This file includes sections about the project, how to use it with Postman, and generating reports with Newman.
-
-markdown
-Copy code
 # Number Conversion API Project
 
 This project demonstrates how to use the Number Conversion web service to convert numbers to words using Postman. The project also includes generating reports using Newman.
@@ -99,11 +95,9 @@ Export the Postman collection to a JSON file.
 
 Use the following command to run the collection with Newman:
 
-bash
-Copy code
 newman run <path_to_your_postman_collection.json>
-Generating Reports with Newman
-Newman allows you to generate various types of reports. Here is an example of generating an HTML report:
+##Generating Reports with Newman
+  Newman allows you to generate various types of reports. Here is an example of generating an HTML report:
 
 Run the following command to generate an HTML report:
 newman run <path_to_your_postman_collection.json> -r html
